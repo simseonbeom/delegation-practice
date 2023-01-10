@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/reset.css" />
+  <link rel="stylesheet" href="./style/part04.css" />
+  <title>Document</title>
+  <script defer src="./js/part04.js"></script>
+</head>
+<body>
+  
+
+
+<div class="container">
+  <article class="contents">
+    <header>
+        <div class="profile_container">
+            <div class="profile_img"><img src="./assets/part03/tiger.png" alt=""></div>
+            <div>
+                <div class="name"><a href="#">심심</a></div>
+                <div class="time">1시간</div>
+            </div>
+            <div class="more" data-name="more">
+                <span class="icon--more"></span>
+                <ul class="hidden_menu">
+                    <li>
+                        <button>친구요청</button>
+                    </li>
+                    <li>저장하기</li>
+                    <li><a href="edit.html">수정</a></li>
+                    <li><input type="button" value="삭제"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main_article">
+        사자의 위엄보다 더 멋진 그들은 멋쟁이 사자 그 자체였다.
+    </div>
+
+    <div class="img_section">
+        <a href="#"><img src="./assets/part03/visual.jpg" alt=""></a>
+    </div>
+
+    <div class="ajax_field">
+        <div class="like">
+            좋아요
+            <span class="like_count" id="like-count-37">1</span>
+            개
+        </div>
+        <div class="comment">
+            댓글
+            <span class="comment_count">1</span>
+            개
+        </div>
+    </div>
+
+    <div class="btn_container">
+        <div class="like_btn" data-name="like">
+            <span class="icon icon--like-line"></span>
+            좋아요
+        </div>
+        <div class="comment_btn" data-name="comment">
+            <span class="icon icon--comment-line"></span>
+            댓글
+        </div>
+    </div>
+
+    <div class="comment_container">
+        <div class="id">
+            <div class="profile_img border_over"><img src="./assets/part03/bo.png" alt=""></div>
+            <div class="comment_field">
+                <div class="text_container">
+                    <div class="name"><a href="#">최보영</a></div>
+                    <div class="text_field">아니 내가 왜 보영?</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="id">
+            <div class="profile_img border_over"><img src="./assets/part03/oh.png" alt=""></div>
+            <div class="comment_field">
+                <div class="text_container">
+                    <div class="name"><a href="#">오승택</a></div>
+                    <div class="text_field">강사님 왼쪽에 보이는 트리는 폴리에틸렌을 합성해서 만든건가요?</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="comment_input">
+        <div class="profile_img"><img src="./assets/part03/tiger.png" alt=""></div>
+        <div class="input_container">
+            <label for="comment37"></label>
+            <input type="text" id="comment37" placeholder="댓글을 입력하세요...">
+
+            <button class="send" data-name="send">
+                <span class="icon--send"></span>
+            </button>
+        </div>
+    </div>
+
+
+  </article>
+</div>
+
+</body>
+</html>
